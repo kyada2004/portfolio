@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+   
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      line-height: 150%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #e9e9e9;
+    }
+
+    .header h1 {
+      color: #222222;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+    }
+
+    .header .social a {
+      padding: 0 5px;
+      color: #222222;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      margin: 500;
+      border-left: 1px solid #96a104;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #29292a;
+      color: white;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      padding: 8px;
+    }
+
+    tr:nth-child(1) {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size: 35px;
+      text-align: center;
+    }
+     .column{
+       float:left ;
+
+       padding: 5px;
+      width: 40%;
+     }
+.row ::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+    .footer {
+      padding: 45px 20px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+    }
+
+  </style>
+ 
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1><img src="images/logo.png" height="100px" width="100%"></h1>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </header>
+    <aside class="left">
+      <img src="images/a.jpg" width="160px" />
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#websites">websites</a></li>
+        <li><a href="#Icon">Icon</a></li>
+        <li><a href="#project">project</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+      </ul>
+      <br><br>
+    </aside>
+   
+    <main class="content">
+      <p><h1  style="color:#0606ef; margin-right: 200px;">Ayush</h1> <br>
+        <h2 style="color:#9e0f0f">Hiii,<br>
+     This Is My all part Like for adout,websites, project,Contact.</h2>
+     <button color="red" height="100px" width="50%"><a href="images/AYUSHResume.pdf">download C.V.</a></button>
+    </p> <br><br><br>
+
+      <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                        
+                    </p>
+                    <div class="row mt-3">
+                   
+                        <div class="col-md-6" align="center">
+                         
+                        <div class="col-md-6"  >
+                          <img src="images/natrue.jpg" sizes="20px">
+                      </div>
+                        
+                    </div>
+                    <div class="row mt-3">
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+      <h1>websites</h1>
+       <div class="thrd container">
+         <a href=""> <img src="" alt=""> websites</a>
+         <p>This is a Ayush websites</p>
+       </div>
+      <hr><br>
+      <h2>My Icon</h2>
+      <table>
+        <tr>
+          <th>Icon 1</th>
+          <th>Icon 2</th>
+          <th>Icon 3</th>
+        </tr>
+        <tr style="color:rgb(11, 11, 11);text-shadow:0px 0px 5px rgb(103, 13, 229);font-size:50px;">
+          <td><i class="fab fa-github-square"></i></td>
+          <td><i class="fab fa-instagram"></i></td>
+          <td><i class="fab fa-whatsapp"></i></td>
+        </tr>
+        <tr>
+          <td>Github</td>
+          <td>Instagram</td>
+          <td>Whattsapp</td>
+        </tr>
+        <tr>
+      </table>
+      <h1>project</h1>
+      <div class="row">
+        <div class="column">
+          <a href=" https://kyada2004.github.io/mini-pro.html-1/">  <img src="images/natureboy.jpg" style="width:100%" alt="Mini project html 1"></a>
+          <a href=" https://kyada2004.github.io/mini-pro.-htmi2/">  <img src="images/girl.jpg" style="width:100%" alt="Mini project html 2"></a>
+          <a href="https://kyada2004.github.io/mini-pro-css/">  <img src="images/girl (1).jpg" style="width:100%"  alt="Mini project css"></a>
+        </div>
+        
+        <div class="column">
+          <a href="https://kyada2004.github.io/big-pro.-html">  <img src="images/boy.jpg" style="width:100%"  alt="Big Project HTML"></a>
+          <a href="https://kyada2004.github.io/big-pro-css/">  <img src="images/man_bench.jpg" style="width:100%"  alt="Big Project CSS"></a>
+          <a href=" https://kyada2004.github.io/silveroakuni07-5-2022/">  <img src="images/girl_train.jpg" style="width:100%" alt="Live Project"></a>
+        </div>
+    
+
+        
+           
+    
+    </main>
+    <footer class="footer"> <marquee>&copy; Copyright ayush@kyada</marquee></footer>
+  </div>
+</body>
+
+</html>
