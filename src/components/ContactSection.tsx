@@ -34,7 +34,9 @@ const ContactSection = () => {
     "Designing and implementing a Microsoft Azure AI Solution (04/2024)",
     "Introduction to AI Concepts (01/2024)",
     "Employee Education to Explore the Potential of Artificial Intelligence (01/2024)",
-  ];
+    "Cisco Networking Academy: Introduction to Cybersecurity (10/2025)", 
+];
+
 
   const languages = [
     { name: "Hindi", proficiency: "Professional Working Proficiency" },
